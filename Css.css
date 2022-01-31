@@ -1,0 +1,280 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    align-items: center;
+}
+
+a{
+    font-size: large;
+    color: rgb(156, 12, 12);
+}
+
+h1 {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    color: rgb(156, 12, 12);
+    text-shadow:  1.5px 1.5px rgba(0, 0, 0, 0.664);
+    font-family: 'Oswald', sans-serif;
+}
+
+h5{
+    text-shadow:  1px 1px rgba(0, 0, 0, 0.664);
+    color: rgb(156, 12, 12);
+    font-family: 'Changa', sans-serif;
+}
+
+p{
+    padding: 10px;
+    font-size: large;
+    font-family: 'Volkhov', serif;
+}
+
+.banner{
+    position: fixed;
+    width: 99%;
+    height: 100px;
+    margin-top: 0px;
+    background-color: rgba(0, 0, 0, 0.856);
+    z-index: 1;
+}
+
+.imagen_banner{
+    float: left;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+.formulario{
+    float: right;
+    width: 470px;
+    height: 50px;
+    margin-top: -60px;
+    margin-left: 650px;
+}
+
+.formulario a{
+    color: white;
+}
+
+.formulario button{
+    color: white;
+    background-color: rgb(156, 12, 12);
+}
+
+.slider{
+    position: relative;
+    overflow: hidden;
+    width: 98%;
+    top: 130px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.397);
+}
+
+.slider ul{
+    display: flex;
+    width: 200%;
+    padding: 0;
+    animation: cambio 20s infinite;
+}
+
+.slider li{
+    width: 50%;
+    list-style: none;
+}
+
+@keyframes cambio{
+    0% {margin-left: 20%;}
+	30% {margin-left: 20%;}
+	
+	40% {margin-left: -100%;}
+	60% {margin-left: -100%;}
+	
+	70% {margin-left: -200%;}
+	100% {margin-left: -200%;}
+}
+
+.menu{
+    position: fixed;
+    overflow: hidden;
+    height: auto;
+    width: 230px;
+    top: 570px;
+    left: 1230px;
+    background-color: rgba(0, 0, 0, 0.76);
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.menu li{
+    /* padding-top: 15px; */
+    padding: 10px;
+    border: 1px solid red;
+    list-style-type: none;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: x-large;
+    color: white;
+    height: auto;
+    padding: 10px;
+    width: 100%;
+}
+.elemento a:hover{background-color: rgb(156, 12, 12)}
+
+.noticias {
+    clear: both;
+}
+
+.noticias {
+    width: 100%;
+}
+
+.noticias a {
+    padding-left: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.noticia1{
+    clear: both;
+    width: 930px;
+    height: 700px;
+    margin-top: 170px;
+    margin-left: 283px;
+    background-color: rgba(128, 128, 128, 0.205);
+    border: groove 1px black;
+    border-radius: 15px;
+}
+
+.noticia2{
+    clear: both;
+    width: 930px;
+    height: 700px;
+    margin-top: 40px;
+    margin-left: 283px;
+    background-color: rgba(128, 128, 128, 0.205);
+    border: groove 1px black;
+    border-radius: 15px;
+}
+
+.noticia3{
+    clear: both;
+    width: 930px;
+    height: 700px;
+    margin-top: 40px;
+    margin-left: 283px;
+    background-color: rgba(128, 128, 128, 0.205);
+    border: groove 1px black;
+    border-radius: 15px;
+}
+
+.noticia4{
+    clear: both;
+    width: 930px;
+    height: 700px;
+    margin-top: 40px;
+    margin-left: 283px;
+    background-color: rgba(128, 128, 128, 0.205);
+    border: groove 1px black;
+    border-radius: 15px;
+}
+
+.noticia5{
+    clear: both;
+    width: 930px;
+    height: 700px;
+    margin-top: 40px;
+    margin-left: 283px;
+    margin-bottom: 50px;
+    background-color: rgba(128, 128, 128, 0.205);
+    border: groove 1px black;
+    border-radius: 15px;
+}
+
+hr{
+    width: 930px;
+    margin-left: 283px;
+}
+
+.foot{
+    clear: both;
+    height: 340px;
+    width: 99%;
+    background-color: rgba(29, 29, 29, 0.87);
+}
+
+.foot li{
+    list-style-type: none;
+}
+
+.foot a{
+    font-size: small;
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.logoFinal {
+    clear: both;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.664);
+}
+
+.logoFinal img{
+    width: 160px;
+    height: 60px;
+    margin-left: 670px;
+    margin-top: 10px;
+
+}
+
+.columna1 {
+    float: left;
+    width: 150px;
+    margin-top: 0px;
+    margin-left: 250px;
+}
+
+.columna2{
+    float: left;
+    width: 150px;
+    margin-left: 150px;
+}
+
+.columna3 {
+    float: left;
+    width: 150px;
+    margin-left: 150px;
+}
+
+.columna4{
+    float: left;
+    width:  170px;
+    margin-left: 150px;
+}
+
+.volverInicio {
+    float: left;
+    width: 158px;
+    margin-left: 1230px;
+    margin-top: -458px;
+    padding-left: 35px;
+    border: solid 2px black;
+    padding: 10px;
+    background-color: rgb(156, 12, 12);
+}
+
+.volverInicio a{
+
+    font-size: x-large;
+    text-decoration: none;
+    font-family: 'Changa', sans-serif;
+    color: white;
+
+
+}
